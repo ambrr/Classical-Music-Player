@@ -1,25 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Classical_Audio_Player" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classical Audio Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyb-Sf-Z8a">
+                                <rect key="frame" x="102" y="28" width="171" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dke-tK-XXO">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="NfK-1I-jO6"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="L8D-Cr-5ak">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="pjR-7P-r5D"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YUf-Lq-dJo"/>
+                                    <barButtonItem systemItem="play" id="00S-WH-T6b">
+                                        <connections>
+                                            <action selector="play:" destination="BYZ-38-t0r" id="20I-RO-Dxv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="U7w-Lg-TfQ"/>
+                                    <barButtonItem title="stop" id="IZ8-oq-ab1">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="3h9-OD-zxS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="EDP-Lp-3Dg">
+                                <rect key="frame" x="54" y="491" width="266" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="77h-CA-4yG"/>
+                                    <constraint firstAttribute="height" constant="30" id="rgp-dG-38y"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="volumeChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="bLH-v7-Sh0"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YBT-dy-Ifk">
+                                <rect key="frame" x="54" y="547" width="266" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="U7p-vO-Jd9"/>
+                                    <constraint firstAttribute="width" constant="262" id="q3z-BT-3ws"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="skipAudio:" destination="BYZ-38-t0r" eventType="valueChanged" id="VRz-0w-KsK"/>
+                                </connections>
+                            </slider>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sebastian-bach.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Ze-Q6-JCP">
+                                <rect key="frame" x="56" y="92" width="262" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="TB9-zg-rcn"/>
+                                    <constraint firstAttribute="width" constant="262" id="dMd-Rd-AmX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dke-tK-XXO" secondAttribute="bottom" id="DQr-7o-sZ1"/>
+                            <constraint firstAttribute="centerX" secondItem="9Ze-Q6-JCP" secondAttribute="centerX" id="Il4-WG-e8H"/>
+                            <constraint firstItem="9Ze-Q6-JCP" firstAttribute="top" secondItem="Pyb-Sf-Z8a" secondAttribute="bottom" constant="43" id="UnM-n4-NvD"/>
+                            <constraint firstItem="YBT-dy-Ifk" firstAttribute="top" secondItem="EDP-Lp-3Dg" secondAttribute="bottom" constant="26" id="e2Q-zV-BPR"/>
+                            <constraint firstAttribute="centerX" secondItem="EDP-Lp-3Dg" secondAttribute="centerX" id="fae-h7-XOI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dke-tK-XXO" secondAttribute="trailing" constant="-16" id="ffI-qr-rXN"/>
+                            <constraint firstAttribute="centerX" secondItem="YBT-dy-Ifk" secondAttribute="centerX" id="gks-WB-ydp"/>
+                            <constraint firstItem="dke-tK-XXO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="k5V-g8-HYH"/>
+                            <constraint firstItem="EDP-Lp-3Dg" firstAttribute="top" secondItem="Pyb-Sf-Z8a" secondAttribute="bottom" constant="442" id="nFQ-bW-W71"/>
+                            <constraint firstAttribute="centerX" secondItem="Pyb-Sf-Z8a" secondAttribute="centerX" id="rDR-fK-ofD"/>
+                            <constraint firstItem="Pyb-Sf-Z8a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="y3F-Rw-Fn3"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="skipOutlet" destination="YBT-dy-Ifk" id="e8m-eO-cSS"/>
+                        <outlet property="volumeOutlet" destination="EDP-Lp-3Dg" id="fSj-Ah-4gd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.5" y="386.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sebastian-bach.png" width="1000" height="1384"/>
+    </resources>
 </document>

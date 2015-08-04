@@ -13,6 +13,8 @@
 		DD1707461B7069A600E13DE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1707451B7069A600E13DE9 /* Images.xcassets */; };
 		DD1707491B7069A600E13DE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1707471B7069A600E13DE9 /* LaunchScreen.xib */; };
 		DD1707551B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1707541B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift */; };
+		DD17075F1B706A0600E13DE9 /* sebastian-bach.png in Resources */ = {isa = PBXBuildFile; fileRef = DD17075E1B706A0600E13DE9 /* sebastian-bach.png */; };
+		DD1707611B706AF700E13DE9 /* bach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD1707601B706AF700E13DE9 /* bach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DD17074E1B7069A600E13DE9 /* Classical Audio PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classical Audio PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1707531B7069A600E13DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD1707541B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_Audio_PlayerTests.swift; sourceTree = "<group>"; };
+		DD17075E1B706A0600E13DE9 /* sebastian-bach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sebastian-bach.png"; sourceTree = "<group>"; };
+		DD1707601B706AF700E13DE9 /* bach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bach.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		DD17073C1B7069A600E13DE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DD1707601B706AF700E13DE9 /* bach.mp3 */,
+				DD17075E1B706A0600E13DE9 /* sebastian-bach.png */,
 				DD17073D1B7069A600E13DE9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1707441B7069A600E13DE9 /* Main.storyboard in Resources */,
+				DD1707611B706AF700E13DE9 /* bach.mp3 in Resources */,
 				DD1707491B7069A600E13DE9 /* LaunchScreen.xib in Resources */,
+				DD17075F1B706A0600E13DE9 /* sebastian-bach.png in Resources */,
 				DD1707461B7069A600E13DE9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
