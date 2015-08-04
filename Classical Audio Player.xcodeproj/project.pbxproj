@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD17073F1B7069A600E13DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD17073E1B7069A600E13DE9 /* AppDelegate.swift */; };
+		DD1707411B7069A600E13DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1707401B7069A600E13DE9 /* ViewController.swift */; };
+		DD1707441B7069A600E13DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1707421B7069A600E13DE9 /* Main.storyboard */; };
+		DD1707461B7069A600E13DE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1707451B7069A600E13DE9 /* Images.xcassets */; };
+		DD1707491B7069A600E13DE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD1707471B7069A600E13DE9 /* LaunchScreen.xib */; };
+		DD1707551B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1707541B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD17074F1B7069A600E13DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD1707311B7069A600E13DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD1707381B7069A600E13DE9;
+			remoteInfo = "Classical Audio Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1707391B7069A600E13DE9 /* Classical Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classical Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD17073D1B7069A600E13DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD17073E1B7069A600E13DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD1707401B7069A600E13DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD1707431B7069A600E13DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD1707451B7069A600E13DE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD1707481B7069A600E13DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD17074E1B7069A600E13DE9 /* Classical Audio PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classical Audio PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1707531B7069A600E13DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1707541B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_Audio_PlayerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD1707361B7069A600E13DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD17074B1B7069A600E13DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1707301B7069A600E13DE9 = {
+			isa = PBXGroup;
+			children = (
+				DD17073B1B7069A600E13DE9 /* Classical Audio Player */,
+				DD1707511B7069A600E13DE9 /* Classical Audio PlayerTests */,
+				DD17073A1B7069A600E13DE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD17073A1B7069A600E13DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD1707391B7069A600E13DE9 /* Classical Audio Player.app */,
+				DD17074E1B7069A600E13DE9 /* Classical Audio PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD17073B1B7069A600E13DE9 /* Classical Audio Player */ = {
+			isa = PBXGroup;
+			children = (
+				DD17073E1B7069A600E13DE9 /* AppDelegate.swift */,
+				DD1707401B7069A600E13DE9 /* ViewController.swift */,
+				DD1707421B7069A600E13DE9 /* Main.storyboard */,
+				DD1707451B7069A600E13DE9 /* Images.xcassets */,
+				DD1707471B7069A600E13DE9 /* LaunchScreen.xib */,
+				DD17073C1B7069A600E13DE9 /* Supporting Files */,
+			);
+			path = "Classical Audio Player";
+			sourceTree = "<group>";
+		};
+		DD17073C1B7069A600E13DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD17073D1B7069A600E13DE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD1707511B7069A600E13DE9 /* Classical Audio PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD1707541B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift */,
+				DD1707521B7069A600E13DE9 /* Supporting Files */,
+			);
+			path = "Classical Audio PlayerTests";
+			sourceTree = "<group>";
+		};
+		DD1707521B7069A600E13DE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1707531B7069A600E13DE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD1707381B7069A600E13DE9 /* Classical Audio Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD1707581B7069A600E13DE9 /* Build configuration list for PBXNativeTarget "Classical Audio Player" */;
+			buildPhases = (
+				DD1707351B7069A600E13DE9 /* Sources */,
+				DD1707361B7069A600E13DE9 /* Frameworks */,
+				DD1707371B7069A600E13DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Classical Audio Player";
+			productName = "Classical Audio Player";
+			productReference = DD1707391B7069A600E13DE9 /* Classical Audio Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD17074D1B7069A600E13DE9 /* Classical Audio PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD17075B1B7069A600E13DE9 /* Build configuration list for PBXNativeTarget "Classical Audio PlayerTests" */;
+			buildPhases = (
+				DD17074A1B7069A600E13DE9 /* Sources */,
+				DD17074B1B7069A600E13DE9 /* Frameworks */,
+				DD17074C1B7069A600E13DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD1707501B7069A600E13DE9 /* PBXTargetDependency */,
+			);
+			name = "Classical Audio PlayerTests";
+			productName = "Classical Audio PlayerTests";
+			productReference = DD17074E1B7069A600E13DE9 /* Classical Audio PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD1707311B7069A600E13DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Amber Morris";
+				TargetAttributes = {
+					DD1707381B7069A600E13DE9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD17074D1B7069A600E13DE9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD1707381B7069A600E13DE9;
+					};
+				};
+			};
+			buildConfigurationList = DD1707341B7069A600E13DE9 /* Build configuration list for PBXProject "Classical Audio Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD1707301B7069A600E13DE9;
+			productRefGroup = DD17073A1B7069A600E13DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD1707381B7069A600E13DE9 /* Classical Audio Player */,
+				DD17074D1B7069A600E13DE9 /* Classical Audio PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD1707371B7069A600E13DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1707441B7069A600E13DE9 /* Main.storyboard in Resources */,
+				DD1707491B7069A600E13DE9 /* LaunchScreen.xib in Resources */,
+				DD1707461B7069A600E13DE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD17074C1B7069A600E13DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD1707351B7069A600E13DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1707411B7069A600E13DE9 /* ViewController.swift in Sources */,
+				DD17073F1B7069A600E13DE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD17074A1B7069A600E13DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1707551B7069A600E13DE9 /* Classical_Audio_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD1707501B7069A600E13DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD1707381B7069A600E13DE9 /* Classical Audio Player */;
+			targetProxy = DD17074F1B7069A600E13DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD1707421B7069A600E13DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1707431B7069A600E13DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD1707471B7069A600E13DE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD1707481B7069A600E13DE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD1707561B7069A600E13DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD1707571B7069A600E13DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD1707591B7069A600E13DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Classical Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD17075A1B7069A600E13DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Classical Audio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD17075C1B7069A600E13DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Classical Audio PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classical Audio Player.app/Classical Audio Player";
+			};
+			name = Debug;
+		};
+		DD17075D1B7069A600E13DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Classical Audio PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classical Audio Player.app/Classical Audio Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD1707341B7069A600E13DE9 /* Build configuration list for PBXProject "Classical Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1707561B7069A600E13DE9 /* Debug */,
+				DD1707571B7069A600E13DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD1707581B7069A600E13DE9 /* Build configuration list for PBXNativeTarget "Classical Audio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1707591B7069A600E13DE9 /* Debug */,
+				DD17075A1B7069A600E13DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD17075B1B7069A600E13DE9 /* Build configuration list for PBXNativeTarget "Classical Audio PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD17075C1B7069A600E13DE9 /* Debug */,
+				DD17075D1B7069A600E13DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD1707311B7069A600E13DE9 /* Project object */;
+}
